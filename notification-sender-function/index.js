@@ -14,6 +14,6 @@ export const sendPushNotification = (req, res) => {
     ]);
     res.status(200).send("Notification Sent!");
   } catch (error) {
-    res.status(500).send("Error Sending Notification");
+    res.status(500).send("Error Sending Notification", error);
   }
 };
