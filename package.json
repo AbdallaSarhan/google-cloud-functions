@@ -1,0 +1,10 @@
+{
+    "name": "expo-notification-service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/index.js",
+    
+    "dependencies": {
+        "expo-server-sdk": "^3.7.0"
+      }
+}
