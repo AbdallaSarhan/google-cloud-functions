@@ -1,2 +1,2 @@
-# expo-notification-service
-Using expo notifications and deploying on google cloud functions
+# google-cloud-functions
+Using github sync repositories to google cloud and deploy cloud functions
