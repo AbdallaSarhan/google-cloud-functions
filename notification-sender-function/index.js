@@ -1,7 +1,7 @@
 import Expo from "expo-server-sdk";
 
+const expo = new Expo();
 export const sendPushNotification = (req, res) => {
-  const expo = new Expo();
   const token = "ExponentPushToken[9rKWfpKNoxctQIn7jGRK5v]";
 
   try {
