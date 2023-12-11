@@ -1,6 +1,6 @@
 import Expo from "expo-server-sdk";
 
-exports.sendPushNotification = (req, res) => {
+export const sendPushNotification = (req, res) => {
   const expo = new Expo();
   const token = "ExponentPushToken[9rKWfpKNoxctQIn7jGRK5v]";
 
